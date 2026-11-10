@@ -38,7 +38,3 @@ The excerpt retains the original assumption that inputs and model are on CPU and
 The original data source, sequence length, split dates, scaler-fitting procedure, model definition, and saved results have not been supplied. No accuracy, test-error, or trading-performance result is claimed. The full training run has not been reproduced from this excerpt.
 
 When the original notebook is added, retain its course and starter-code attribution and document its dependencies and evaluation results.
-
-## LinkedIn
-
-Use **AI Stock Market Predictor | Python & PyTorch** as the project title. A description reflecting the current source availability is in the [profile wording](../docs/LINKEDIN.md).

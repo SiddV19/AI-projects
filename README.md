@@ -18,10 +18,6 @@ A stock-price prediction learning project started during the Harvard AI bootcamp
 
 The complete original Colab notebook has not been added yet. The published Python file is a notebook cell that depends on earlier setup, including data preparation, the model definition, and a fitted target scaler. Full training and test results have not been reproduced from this excerpt.
 
-## LinkedIn
-
-Use the [LinkedIn project description](docs/LINKEDIN.md) when adding this work to your profile. It describes the code currently available without claiming unverified performance.
-
 ## Other work
 
 [React Native Application Portfolio](https://github.com/SiddV19/expo-app-portfolio) — mobile apps exploring sensors, GPS, drawing, games, and everyday utilities.
