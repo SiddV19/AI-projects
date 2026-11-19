@@ -1,0 +1,39 @@
+{
+  "ticker": "MSFT",
+  "last_observed_date": "2026-11-17",
+  "observations": 4245,
+  "training_observations": 3396,
+  "training_sequences": 3346,
+  "test_sequences": 849,
+  "test_start": "2023-07-03",
+  "test_end": "2026-11-17",
+  "window": 50,
+  "epochs": 30,
+  "seed": 42,
+  "device": "cuda",
+  "lstm_metrics": {
+    "MAE (USD)": 4.755023002624512,
+    "RMSE (USD)": 6.921469648560721,
+    "MAPE (%)": 1.130462884902954,
+    "MDAPE (%)": 0.8235989212989807
+  },
+  "baseline_metrics": {
+    "MAE (USD)": 4.760743337750294,
+    "RMSE (USD)": 6.923769296779968,
+    "MAPE (%)": 1.1317578038243206,
+    "MDAPE (%)": 0.8232287966625716
+  },
+  "mae_improvement_pct": 0.12015634366219219,
+  "next_session_prediction": 506.34381103515625,
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0",
+    "scikit-learn": "1.6.1",
+    "seaborn": "0.13.2",
+    "torch": "2.14.1+cu130",
+    "yfinance": "0.2.66"
+  },
+  "checks_passed": true,
+  "notebook_source_sha256": "882256268e2f5cf3bb9b0504225891e27c26306d4e1180c508c7849204ed2610"
+}
