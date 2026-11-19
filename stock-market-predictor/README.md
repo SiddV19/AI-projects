@@ -2,7 +2,9 @@
 
 **Python · PyTorch · Google Colab · Time-series modeling**
 
-[← AI projects](../README.md) · [Source notes](SOURCE.md)
+[← AI projects](../README.md) · [Open in Google Colab](https://colab.research.google.com/drive/1OG71mQ3pkkOUsqxHZ-SIsXXWK1x9irTk#scrollTo=tGjHZYtC0qw2) · [Source notes](SOURCE.md)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OG71mQ3pkkOUsqxHZ-SIsXXWK1x9irTk#scrollTo=tGjHZYtC0qw2)
 
 A stock-price prediction learning project developed in Google Colab during the Harvard AI bootcamp. The shared code trains a PyTorch time-series model in mini-batches, generates predictions, and reverses target scaling.
 
@@ -10,7 +12,7 @@ A stock-price prediction learning project developed in Google Colab during the H
 
 The [training and inference excerpt](training_excerpt.py) preserves the Colab cell shared by the author. It is a notebook fragment that depends on setup from earlier cells.
 
-**The complete original `.ipynb` notebook has not been added yet.** Model architecture, data preparation, and evaluation outputs are therefore not included here.
+The [original notebook is hosted in Google Colab](https://colab.research.google.com/drive/1OG71mQ3pkkOUsqxHZ-SIsXXWK1x9irTk#scrollTo=tGjHZYtC0qw2). This repository contains the earlier shared excerpt rather than a standalone `.ipynb` copy. Open Colab for the notebook workflow; later Colab edits are not automatically synchronized to `training_excerpt.py`.
 
 ## What the shared cell does
 
@@ -31,10 +33,10 @@ Run this cell after the original notebook's setup. It requires:
 - A loss function named `criterion` and an `optimizer` connected to the model parameters.
 - A fitted target scaler named `scaler_pred`.
 
-The excerpt retains the original assumption that inputs and model are on CPU and that `y_batch.unsqueeze(1)` matches the model output shape. It should not be run as a standalone script. The full environment and run instructions will accompany the original notebook.
+The excerpt retains the original assumption that inputs and model are on CPU and that `y_batch.unsqueeze(1)` matches the model output shape. It should not be run as a standalone script. Use the linked Colab notebook for its setup cells and notebook environment.
 
 ## Reproducibility status
 
-The original data source, sequence length, split dates, scaler-fitting procedure, model definition, and saved results have not been supplied. No accuracy, test-error, or trading-performance result is claimed. The full training run has not been reproduced from this excerpt.
+The excerpt alone does not include the original data source, sequence length, split dates, scaler-fitting procedure, model definition, or saved results. No accuracy, test-error, or trading-performance result is claimed here. The full training run has not been reproduced from this excerpt.
 
-When the original notebook is added, retain its course and starter-code attribution and document its dependencies and evaluation results.
+If a notebook copy is added to GitHub, retain its course and starter-code attribution and document its dependencies and evaluation results.
